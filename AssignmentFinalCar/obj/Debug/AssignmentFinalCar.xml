@@ -1,0 +1,4571 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AssignmentFinalCar
+</name>
+</assembly>
+<members>
+<member name="T:AssignmentFinalCar.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:AssignmentFinalCar.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:AssignmentFinalCar.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:AssignmentFinalCar.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:AssignmentFinalCar.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:AssignmentFinalCar.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:AssignmentFinalCar.Site1._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._HyperLinkBrand">
+<summary>
+HyperLinkBrand control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._MainNavigationMenu">
+<summary>
+MainNavigationMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._HyperLinkLogin">
+<summary>
+HyperLinkLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._HyperLinkRegister">
+<summary>
+HyperLinkRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._HyperLinkAboutFooter">
+<summary>
+HyperLinkAboutFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site1._HyperLinkFleetFooter">
+<summary>
+HyperLinkFleetFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._Menu1">
+<summary>
+Menu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lnkCart">
+<summary>
+lnkCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lblUsername">
+<summary>
+lblUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lnkProfile">
+<summary>
+lnkProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lnkMyBookings">
+<summary>
+lnkMyBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lnkFeedback">
+<summary>
+lnkFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lnkLogout">
+<summary>
+lnkLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lblWelcomeUser">
+<summary>
+lblWelcomeUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lblCarInstant">
+<summary>
+lblCarInstant control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lblClientServices">
+<summary>
+lblClientServices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._BulletedList1">
+<summary>
+BulletedList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site2._lblContactInfo">
+<summary>
+lblContactInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkManageVehicles">
+<summary>
+lnkManageVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkAddVehicles">
+<summary>
+lnkAddVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkManageMakeModel">
+<summary>
+lnkManageMakeModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkManageUsers">
+<summary>
+lnkManageUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkRegisterAdmin">
+<summary>
+lnkRegisterAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkBookings">
+<summary>
+lnkBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lblUsername">
+<summary>
+lblUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkProfile">
+<summary>
+lnkProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkLogout">
+<summary>
+lnkLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lblWelcomeAdmin">
+<summary>
+lblWelcomeAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkFooterManageVehicles">
+<summary>
+lnkFooterManageVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkFooterManageUsers">
+<summary>
+lnkFooterManageUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lnkFooterManageBookings">
+<summary>
+lnkFooterManageBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.Site3._lblOnlineUsers">
+<summary>
+lblOnlineUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._imgHeroBackground">
+<summary>
+imgHeroBackground control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lnkRegister">
+<summary>
+lnkRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lnkBrowseVehicles">
+<summary>
+lnkBrowseVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lblLocation">
+<summary>
+lblLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._ddlLocation">
+<summary>
+ddlLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lblPickupDate">
+<summary>
+lblPickupDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._txtPickupDate">
+<summary>
+txtPickupDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lblReturnDate">
+<summary>
+lblReturnDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._txtReturnDate">
+<summary>
+txtReturnDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lblSearch">
+<summary>
+lblSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._pnlSearchResults">
+<summary>
+pnlSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lblSearchMessage">
+<summary>
+lblSearchMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._rptSearchResults">
+<summary>
+rptSearchResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lnkViewAllVehicles">
+<summary>
+lnkViewAllVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._rptFeedback">
+<summary>
+rptFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._rptFeaturedVehicles">
+<summary>
+rptFeaturedVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._lnkViewAllFeaturedVehicles">
+<summary>
+lnkViewAllFeaturedVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm1._rptLatestNews">
+<summary>
+rptLatestNews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm2._btnRegister">
+<summary>
+btnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtDateOfBirth">
+<summary>
+txtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._valDobRange">
+<summary>
+valDobRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._rblGender">
+<summary>
+rblGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._txtConfirmPassword">
+<summary>
+txtConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm3._btnRegister">
+<summary>
+btnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._imgHeroBackground">
+<summary>
+imgHeroBackground control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litHeroTitle">
+<summary>
+litHeroTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litHeroDescription">
+<summary>
+litHeroDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litStoryTitle">
+<summary>
+litStoryTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litStoryContent1">
+<summary>
+litStoryContent1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litStoryContent2">
+<summary>
+litStoryContent2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblServicesTitle">
+<summary>
+lblServicesTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblServicesSubtitle">
+<summary>
+lblServicesSubtitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService1Title">
+<summary>
+lblService1Title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService1Desc">
+<summary>
+lblService1Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService2Title">
+<summary>
+lblService2Title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService2Desc">
+<summary>
+lblService2Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService3Title">
+<summary>
+lblService3Title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService3Desc">
+<summary>
+lblService3Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService4Title">
+<summary>
+lblService4Title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService4Desc">
+<summary>
+lblService4Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService5Title">
+<summary>
+lblService5Title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService5Desc">
+<summary>
+lblService5Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService6Title">
+<summary>
+lblService6Title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblService6Desc">
+<summary>
+lblService6Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTotalVehicles">
+<summary>
+lblTotalVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblVehiclesLabel">
+<summary>
+lblVehiclesLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTotalCustomers">
+<summary>
+lblTotalCustomers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblCustomersLabel">
+<summary>
+lblCustomersLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTotalBookings">
+<summary>
+lblTotalBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblBookingsLabel">
+<summary>
+lblBookingsLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblRating">
+<summary>
+lblRating control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblRatingLabel">
+<summary>
+lblRatingLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeamTitle">
+<summary>
+lblTeamTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeamSubtitle">
+<summary>
+lblTeamSubtitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._imgTeam1">
+<summary>
+imgTeam1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam1Name">
+<summary>
+lblTeam1Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam1Position">
+<summary>
+lblTeam1Position control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam1Description">
+<summary>
+lblTeam1Description control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._imgTeam2">
+<summary>
+imgTeam2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam2Name">
+<summary>
+lblTeam2Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam2Position">
+<summary>
+lblTeam2Position control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam2Description">
+<summary>
+lblTeam2Description control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._imgTeam3">
+<summary>
+imgTeam3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam3Name">
+<summary>
+lblTeam3Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam3Position">
+<summary>
+lblTeam3Position control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblTeam3Description">
+<summary>
+lblTeam3Description control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblContactTitle">
+<summary>
+lblContactTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblContactSubtitle">
+<summary>
+lblContactSubtitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblLocationTitle">
+<summary>
+lblLocationTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litLocationAddress">
+<summary>
+litLocationAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._lblContactDetailsTitle">
+<summary>
+lblContactDetailsTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm4._litContactDetails">
+<summary>
+litContactDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._pnlContainer">
+<summary>
+pnlContainer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._lblResultsCount">
+<summary>
+lblResultsCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._pnlFilters">
+<summary>
+pnlFilters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._ddlMake">
+<summary>
+ddlMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._ddlModel">
+<summary>
+ddlModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._ddlFuelType">
+<summary>
+ddlFuelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._ddlTransmission">
+<summary>
+ddlTransmission control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._ddlSeats">
+<summary>
+ddlSeats control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._txtMinPrice">
+<summary>
+txtMinPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._txtMaxPrice">
+<summary>
+txtMaxPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._ddlSort">
+<summary>
+ddlSort control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._btnFilter">
+<summary>
+btnFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._btnClearFilters">
+<summary>
+btnClearFilters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._pnlActiveFilters">
+<summary>
+pnlActiveFilters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._litActiveFilters">
+<summary>
+litActiveFilters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._lnkClearFilters">
+<summary>
+lnkClearFilters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._rptVehicles">
+<summary>
+rptVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._pnlNoResults">
+<summary>
+pnlNoResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._btnClearFiltersNoResults">
+<summary>
+btnClearFiltersNoResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._pnlPagination">
+<summary>
+pnlPagination control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm5._phPagination">
+<summary>
+phPagination control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblTotalUsers">
+<summary>
+lblTotalUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblTotalVehicles">
+<summary>
+lblTotalVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblActiveBookings">
+<summary>
+lblActiveBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblMonthlyRevenue">
+<summary>
+lblMonthlyRevenue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._btnAddVehicles">
+<summary>
+btnAddVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._btnRegisterAdmin">
+<summary>
+btnRegisterAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._btnManageUsers">
+<summary>
+btnManageUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._btnManageBookings">
+<summary>
+btnManageBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblActivityCount">
+<summary>
+lblActivityCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._rptRecentActivity">
+<summary>
+rptRecentActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._progressAvailable">
+<summary>
+progressAvailable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblAvailableVehicles">
+<summary>
+lblAvailableVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._progressClients">
+<summary>
+progressClients control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblActiveClients">
+<summary>
+lblActiveClients control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._gvRecentUsers">
+<summary>
+gvRecentUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._btnRefreshData">
+<summary>
+btnRefreshData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblPendingBookings">
+<summary>
+lblPendingBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblNewRegistrations">
+<summary>
+lblNewRegistrations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblMaintenanceDue">
+<summary>
+lblMaintenanceDue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm6._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._btnBackToList">
+<summary>
+btnBackToList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._ddlMake">
+<summary>
+ddlMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._lblMakeError">
+<summary>
+lblMakeError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._ddlModel">
+<summary>
+ddlModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._lblModelError">
+<summary>
+lblModelError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._txtColor">
+<summary>
+txtColor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._lblColorError">
+<summary>
+lblColorError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._txtLicensePlate">
+<summary>
+txtLicensePlate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._lblLicensePlateError">
+<summary>
+lblLicensePlateError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._txtMileage">
+<summary>
+txtMileage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._txtPricePerDay">
+<summary>
+txtPricePerDay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._lblPriceError">
+<summary>
+lblPriceError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._ddlStatus">
+<summary>
+ddlStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._txtLocation">
+<summary>
+txtLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chkAirConditioning">
+<summary>
+chkAirConditioning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chkBluetooth">
+<summary>
+chkBluetooth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chkGPS">
+<summary>
+chkGPS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chk4WD">
+<summary>
+chk4WD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chkLeatherSeats">
+<summary>
+chkLeatherSeats control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chkSunroof">
+<summary>
+chkSunroof control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._chkPremiumSound">
+<summary>
+chkPremiumSound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._txtCustomFeatures">
+<summary>
+txtCustomFeatures control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._fuVehicleImage">
+<summary>
+fuVehicleImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._btnSaveAndAddAnother">
+<summary>
+btnSaveAndAddAnother control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm7._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._btnAddVehicles">
+<summary>
+btnAddVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._txtSearchVehicle">
+<summary>
+txtSearchVehicle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._ddlStatusFilter">
+<summary>
+ddlStatusFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._ddlMakeFilter">
+<summary>
+ddlMakeFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._txtMinPrice">
+<summary>
+txtMinPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._txtMaxPrice">
+<summary>
+txtMaxPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._btnClear">
+<summary>
+btnClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._rptVehicles">
+<summary>
+rptVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._pnlNoVehicles">
+<summary>
+pnlNoVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._btnAddFirstVehicle">
+<summary>
+btnAddFirstVehicle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._pnlPagination">
+<summary>
+pnlPagination control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._rptPagination">
+<summary>
+rptPagination control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm8._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._btnRegisterAdmin">
+<summary>
+btnRegisterAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._lblTotalUsers">
+<summary>
+lblTotalUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._lblActiveUsers">
+<summary>
+lblActiveUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._lblBlockedUsers">
+<summary>
+lblBlockedUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._lblAdminUsers">
+<summary>
+lblAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._txtSearchUser">
+<summary>
+txtSearchUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._ddlUserType">
+<summary>
+ddlUserType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._ddlStatus">
+<summary>
+ddlStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._ddlDateFilter">
+<summary>
+ddlDateFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._btnClear">
+<summary>
+btnClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._ddlPageSize">
+<summary>
+ddlPageSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._gvUsers">
+<summary>
+gvUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm9._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblFirstNameError">
+<summary>
+lblFirstNameError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblLastNameError">
+<summary>
+lblLastNameError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtDateOfBirth">
+<summary>
+txtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblDateOfBirthError">
+<summary>
+lblDateOfBirthError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._ddlGender">
+<summary>
+ddlGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblGenderError">
+<summary>
+lblGenderError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblEmailError">
+<summary>
+lblEmailError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblPhoneError">
+<summary>
+lblPhoneError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblAddressError">
+<summary>
+lblAddressError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblUsernameError">
+<summary>
+lblUsernameError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblPasswordError">
+<summary>
+lblPasswordError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._txtConfirmPassword">
+<summary>
+txtConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lblConfirmPasswordError">
+<summary>
+lblConfirmPasswordError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._btnRegister">
+<summary>
+btnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm10._lnkBackToUsers">
+<summary>
+lnkBackToUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblTotalBookings">
+<summary>
+lblTotalBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblPendingBookings">
+<summary>
+lblPendingBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblConfirmedBookings">
+<summary>
+lblConfirmedBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblActiveBookings">
+<summary>
+lblActiveBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblCompletedBookings">
+<summary>
+lblCompletedBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblCancelledBookings">
+<summary>
+lblCancelledBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._txtSearch">
+<summary>
+txtSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._ddlStatus">
+<summary>
+ddlStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._txtDateFrom">
+<summary>
+txtDateFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._txtDateTo">
+<summary>
+txtDateTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._btnClear">
+<summary>
+btnClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._ddlPageSize">
+<summary>
+ddlPageSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._gvBookings">
+<summary>
+gvBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._pnlBookingDetails">
+<summary>
+pnlBookingDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm11._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtMakeName">
+<summary>
+txtMakeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._rfvMakeName">
+<summary>
+rfvMakeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtCountry">
+<summary>
+txtCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtMakeDescription">
+<summary>
+txtMakeDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnAddMake">
+<summary>
+btnAddMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnUpdateMake">
+<summary>
+btnUpdateMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnCancelMake">
+<summary>
+btnCancelMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._hfSelectedMakeID">
+<summary>
+hfSelectedMakeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtSearchMake">
+<summary>
+txtSearchMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnSearchMake">
+<summary>
+btnSearchMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnResetMake">
+<summary>
+btnResetMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._gvMakes">
+<summary>
+gvMakes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._ddlMake">
+<summary>
+ddlMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._rfvMake">
+<summary>
+rfvMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtModelName">
+<summary>
+txtModelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._rfvModelName">
+<summary>
+rfvModelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtYear">
+<summary>
+txtYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._ddlFuelType">
+<summary>
+ddlFuelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._ddlTransmission">
+<summary>
+ddlTransmission control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtSeatingCapacity">
+<summary>
+txtSeatingCapacity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtModelDescription">
+<summary>
+txtModelDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnAddModel">
+<summary>
+btnAddModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnUpdateModel">
+<summary>
+btnUpdateModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnCancelModel">
+<summary>
+btnCancelModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._hfSelectedModelID">
+<summary>
+hfSelectedModelID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._ddlSearchMake">
+<summary>
+ddlSearchMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._txtSearchModel">
+<summary>
+txtSearchModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._ddlSearchFuel">
+<summary>
+ddlSearchFuel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnSearchModel">
+<summary>
+btnSearchModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._btnResetModel">
+<summary>
+btnResetModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm13._gvModels">
+<summary>
+gvModels control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lblTotalBookings">
+<summary>
+lblTotalBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lblActiveBookings">
+<summary>
+lblActiveBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lblCartItems">
+<summary>
+lblCartItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lblTotalSpent">
+<summary>
+lblTotalSpent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lnkSearchVehicles">
+<summary>
+lnkSearchVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lnkViewCart">
+<summary>
+lnkViewCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lblCartCount">
+<summary>
+lblCartCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lnkMyBookings">
+<summary>
+lnkMyBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lnkProfile">
+<summary>
+lnkProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._rptLatestNews">
+<summary>
+rptLatestNews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._pnlNoNews">
+<summary>
+pnlNoNews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm14._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._ddlMake">
+<summary>
+ddlMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._ddlModel">
+<summary>
+ddlModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._ddlFuelType">
+<summary>
+ddlFuelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._txtMinPrice">
+<summary>
+txtMinPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._txtMaxPrice">
+<summary>
+txtMaxPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._ddlTransmission">
+<summary>
+ddlTransmission control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._ddlSeating">
+<summary>
+ddlSeating control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._txtSearchName">
+<summary>
+txtSearchName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._ddlSortBy">
+<summary>
+ddlSortBy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._lblResultsCount">
+<summary>
+lblResultsCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._btnClearFilters">
+<summary>
+btnClearFilters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._lvVehicles">
+<summary>
+lvVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._dpVehicles">
+<summary>
+dpVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm12._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lblCartCount">
+<summary>
+lblCartCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._pnlEmptyCart">
+<summary>
+pnlEmptyCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lnkBrowseVehicles">
+<summary>
+lnkBrowseVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._pnlCartItems">
+<summary>
+pnlCartItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._rptCartItems">
+<summary>
+rptCartItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._pnlDiscountSummary">
+<summary>
+pnlDiscountSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lblTotalSavings">
+<summary>
+lblTotalSavings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lblSubtotal">
+<summary>
+lblSubtotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lblAddonsTotal">
+<summary>
+lblAddonsTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lblGrandTotal">
+<summary>
+lblGrandTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._btnClearCart">
+<summary>
+btnClearCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lnkContinueShopping">
+<summary>
+lnkContinueShopping control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm15._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._lblTotalBookings">
+<summary>
+lblTotalBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._lblActiveBookings">
+<summary>
+lblActiveBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._txtSearch">
+<summary>
+txtSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._ddlStatusFilter">
+<summary>
+ddlStatusFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._txtFromDate">
+<summary>
+txtFromDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._txtToDate">
+<summary>
+txtToDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._btnApplyFilter">
+<summary>
+btnApplyFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._btnClearFilter">
+<summary>
+btnClearFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._lvBookings">
+<summary>
+lvBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._dpBookings">
+<summary>
+dpBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm16._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._lblProfileName">
+<summary>
+lblProfileName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._lblProfileEmail">
+<summary>
+lblProfileEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._lblProfileUsername">
+<summary>
+lblProfileUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._lblMemberSince">
+<summary>
+lblMemberSince control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._lblTotalBookings">
+<summary>
+lblTotalBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._valSummary">
+<summary>
+valSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._reqFirstName">
+<summary>
+reqFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._reqLastName">
+<summary>
+reqLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._reqEmail">
+<summary>
+reqEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._regEmail">
+<summary>
+regEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._reqPhone">
+<summary>
+reqPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._regPhone">
+<summary>
+regPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtDateOfBirth">
+<summary>
+txtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._ddlGender">
+<summary>
+ddlGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._reqAddress">
+<summary>
+reqAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtCurrentPassword">
+<summary>
+txtCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._reqCurrentPassword">
+<summary>
+reqCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._custPasswordStrength">
+<summary>
+custPasswordStrength control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._txtConfirmPassword">
+<summary>
+txtConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._cmpPasswords">
+<summary>
+cmpPasswords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._btnSaveProfile">
+<summary>
+btnSaveProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._rptRecentActivity">
+<summary>
+rptRecentActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._pnlNoActivity">
+<summary>
+pnlNoActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm17._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._imgVehicle">
+<summary>
+imgVehicle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblVehicleName">
+<summary>
+lblVehicleName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblLicensePlate">
+<summary>
+lblLicensePlate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblYear">
+<summary>
+lblYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblFuelType">
+<summary>
+lblFuelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblTransmission">
+<summary>
+lblTransmission control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblSeating">
+<summary>
+lblSeating control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblColor">
+<summary>
+lblColor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblMileage">
+<summary>
+lblMileage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._pnlFeatures">
+<summary>
+pnlFeatures control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._pnlDescription">
+<summary>
+pnlDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblDescription">
+<summary>
+lblDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblPricePerDay">
+<summary>
+lblPricePerDay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._txtStartDate">
+<summary>
+txtStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._rfvStartDate">
+<summary>
+rfvStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._txtEndDate">
+<summary>
+txtEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._rfvEndDate">
+<summary>
+rfvEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._cvEndDate">
+<summary>
+cvEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._txtDeliveryTime">
+<summary>
+txtDeliveryTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._txtDropoffLocation">
+<summary>
+txtDropoffLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._rfvDropoff">
+<summary>
+rfvDropoff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._txtSpecialRequests">
+<summary>
+txtSpecialRequests control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._rptAddons">
+<summary>
+rptAddons control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblRentalDays">
+<summary>
+lblRentalDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblSubTotal">
+<summary>
+lblSubTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._pnlDiscount">
+<summary>
+pnlDiscount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblDiscountPercent">
+<summary>
+lblDiscountPercent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblDiscountAmount">
+<summary>
+lblDiscountAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblAddonTotal">
+<summary>
+lblAddonTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblTotalAmount">
+<summary>
+lblTotalAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._btnAddToCart">
+<summary>
+btnAddToCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._btnBookNow">
+<summary>
+btnBookNow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm18._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblAdminName">
+<summary>
+lblAdminName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblAdminEmail">
+<summary>
+lblAdminEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblAdminUsername">
+<summary>
+lblAdminUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblAdminSince">
+<summary>
+lblAdminSince control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblTotalActions">
+<summary>
+lblTotalActions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._ValidationSummary1">
+<summary>
+ValidationSummary1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rfvFirstName">
+<summary>
+rfvFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._revFirstName">
+<summary>
+revFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rfvLastName">
+<summary>
+rfvLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._revLastName">
+<summary>
+revLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rfvEmail">
+<summary>
+rfvEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._revEmail">
+<summary>
+revEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._cvEmail">
+<summary>
+cvEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rfvPhone">
+<summary>
+rfvPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._revPhone">
+<summary>
+revPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtDateOfBirth">
+<summary>
+txtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rvDateOfBirth">
+<summary>
+rvDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._ddlGender">
+<summary>
+ddlGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rfvAddress">
+<summary>
+rfvAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtCurrentPassword">
+<summary>
+txtCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rfvCurrentPassword">
+<summary>
+rfvCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._cvCurrentPassword">
+<summary>
+cvCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._revNewPassword">
+<summary>
+revNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._txtConfirmPassword">
+<summary>
+txtConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._cvConfirmPassword">
+<summary>
+cvConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._btnSaveProfile">
+<summary>
+btnSaveProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblTotalUsers">
+<summary>
+lblTotalUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblTotalVehicles">
+<summary>
+lblTotalVehicles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblActiveBookings">
+<summary>
+lblActiveBookings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblPendingApprovals">
+<summary>
+lblPendingApprovals control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._rptAdminActivity">
+<summary>
+rptAdminActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._pnlNoActivity">
+<summary>
+pnlNoActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm19._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.Page_Load(System.Object,System.EventArgs)">
+ <summary>
+ Page Load Event - Executes when the page is first loaded or on postback
+ Handles security checks and initial data loading
+ </summary>
+ <param name="sender">The source of the event</param>
+ <param name="e">Event arguments</param>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.LoadAdminProfile">
+ <summary>
+ Loads the current admin's profile information from the database
+ Populates all form fields and header display labels
+ </summary>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.LoadSystemStatistics">
+ <summary>
+ Loads system statistics from the database for dashboard display
+ Calculates totals for users, vehicles, bookings, and admin actions
+ </summary>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.LoadAdminActivity">
+ <summary>
+ Loads recent admin activities for the activity timeline
+ Combines data from multiple tables to show comprehensive admin actions
+ </summary>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.btnSaveProfile_Click(System.Object,System.EventArgs)">
+ <summary>
+ Save Profile Button Click Event Handler
+ Validates form data and updates admin profile if validation passes
+ </summary>
+ <param name="sender">The button that was clicked</param>
+ <param name="e">Event arguments</param>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.btnCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancel Button Click Event Handler
+ Reloads original data and clears any validation messages
+ </summary>
+ <param name="sender">The button that was clicked</param>
+ <param name="e">Event arguments</param>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.ValidateUniqueEmail(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+ <summary>
+ Custom Validator for Email Uniqueness
+ Checks if the entered email is already in use by another user
+ </summary>
+ <param name="source">The validator control</param>
+ <param name="args">Validation arguments containing the value to validate</param>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.ValidateCurrentPassword(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+ <summary>
+ Custom Validator for Current Password Verification
+ Verifies that the entered current password matches the stored password
+ </summary>
+ <param name="source">The validator control</param>
+ <param name="args">Validation arguments containing the password to validate</param>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.UpdateAdminProfile">
+ <summary>
+ Updates the admin profile information in the database
+ Handles both personal information and optional password updates
+ </summary>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.IsValidEmail(System.String)">
+ <summary>
+ Validates email address format using regular expression
+ </summary>
+ <param name="email">Email address to validate</param>
+ <returns>True if email format is valid, False otherwise</returns>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.IsValidPhone(System.String)">
+ <summary>
+ Validates phone number format and length
+ Removes non-digit characters and checks length
+ </summary>
+ <param name="phone">Phone number to validate</param>
+ <returns>True if phone format is valid, False otherwise</returns>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.IsValidPassword(System.String)">
+ <summary>
+ Validates password strength requirements
+ Checks for minimum length, uppercase, lowercase, and digit requirements
+ </summary>
+ <param name="password">Password to validate</param>
+ <returns>True if password meets strength requirements, False otherwise</returns>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.HashPassword(System.String)">
+ <summary>
+ Hashes password using SHA256 algorithm for secure storage
+ </summary>
+ <param name="password">Plain text password to hash</param>
+ <returns>SHA256 hash of the password as hexadecimal string</returns>
+</member>
+<member name="M:AssignmentFinalCar.WebForm19.ShowMessage(System.String,System.String)">
+ <summary>
+ Displays a message to the user using the message panel
+ Automatically hides the message after 5 seconds using JavaScript
+ </summary>
+ <param name="message">Message text to display</param>
+ <param name="cssClass">Bootstrap CSS class for message styling (alert-success, alert-danger, etc.)</param>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._pnlMessage">
+<summary>
+pnlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._ValidationSummary1">
+<summary>
+ValidationSummary1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._rfvName">
+<summary>
+rfvName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._lblEmail">
+<summary>
+lblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._rfvEmail">
+<summary>
+rfvEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._revEmail">
+<summary>
+revEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._lblFeedbackType">
+<summary>
+lblFeedbackType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._ddlFeedbackType">
+<summary>
+ddlFeedbackType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._rfvFeedbackType">
+<summary>
+rfvFeedbackType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._lblPriority">
+<summary>
+lblPriority control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._ddlPriority">
+<summary>
+ddlPriority control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._lblSubject">
+<summary>
+lblSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._txtSubject">
+<summary>
+txtSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._rfvSubject">
+<summary>
+rfvSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._txtMessage">
+<summary>
+txtMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._rfvMessage">
+<summary>
+rfvMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AssignmentFinalCar.WebForm20._btnClear">
+<summary>
+btnClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
