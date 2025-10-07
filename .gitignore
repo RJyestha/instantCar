@@ -1,40 +1,130 @@
+# Compiled Source
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
 
-# Office temporary files
-~$*
+# Include dlls if they're in the NuGet packages directory
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
 
-# Access database lock files (laccdb, ldb)
-*.[lL][aA][cC][cC][dD][bB]
-*.[lL][dD][bB]
+# VS Upgrade stuff
+UpgradeLog.XML
+_UpgradeReport_Files/
 
-# The following sections constitute a list of Office file extensions that support VBA.
-# If you want to exclude Office files from your repo, uncomment the corresponding file extensions.
+# Directories
+bin/
+obj/
+TestResults/
+.vs/ # Visual Studio 2015/2017 cache/options directory.
+Generated Files/ # Visual Studio 2017 auto generated files.
 
-# Excel (xls, xlsb, xlsm, xlt, xltm, xla, xlam)
-#*.[xX][lL][sS]
-#*.[xX][lL][sS][bB]
-#*.[xX][lL][sS][mM]
-#*.[xX][lL][tT]
-#*.[xX][lL][tT][mM]
-#*.[xX][lL][aA]
-#*.[xX][lL][aA][mM]
+# Web publish log
+*.Publish.xml
 
-# Word (doc, docm, dot, dotm)
-#*.[dD][oO][cC]
-#*.[dD][oO][cC][mM]
-#*.[dD][oO][tT]
-#*.[dD][oO][tT][mM]
+# ReSharper
+_ReSharper*/
+*.ReSharper.*
+*.DotSettings.user
 
-# Access (accda, accdb, accde, mdb, mde)
-#*.[aA][cC][cC][dD][aA]
-#*.[aA][cC][cC][dD][bB]
-#*.[aA][cC][cC][dD][eE]
-#*.[mM][dD][bB]
-#*.[mM][dD][eE]
+# NuGet Packages
+# it's better to unpack these files and commit the raw source.
+# If you must include packages, uncomment the following:
+# packages/
 
-# PowerPoint (ppt, pptm, pot, potm, pps, ppsm)
-#*.[pP][pP][tT]
-#*.[pP][pP][tT][mM]
-#*.[pP][oO][tT]
-#*.[pP][oO][tT][mM]
-#*.[pP][pP][sS]
-#*.[pP][pP][sS][mM]
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Other common files to ignore
+*.user
+*.bak
+*.orig
