@@ -1,0 +1,235 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="PublicMaster.Master.vb" Inherits="AssignmentFinalCar.Site1" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ASP.NET Page.Title property allows dynamic title setting from content pages -->
+    <title><%: Page.Title %> - CarInstant</title>
+    
+    <!-- External CSS libraries loaded from CDN for Bootstrap and Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    
+    <style>
+        /* Custom styles for the navigation bar with gradient background */
+        .navbar {
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+            background: linear-gradient(135deg, #007cf0 0%, #00dfd8 100%) !important;
+        }
+
+        /* Brand logo styling in the navigation */
+        .navbar-brand {
+            font-weight: bold;
+            color: white !important;
+            font-size: 1.5rem;
+        }
+
+        /* ASP.NET Menu control styling to match Bootstrap navbar appearance */
+        .AspNet-Menu {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Menu items horizontal layout */
+        .AspNet-Menu-Horizontal {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Individual menu item styling */
+        .AspNet-Menu-Horizontal li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        /* Menu link styling to match Bootstrap nav-link class */
+        .AspNet-Menu-Horizontal a {
+            color: white !important;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effects for menu links */
+        .AspNet-Menu-Horizontal a:hover {
+            color: #e8f9ff !important;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Custom button styling for login/register buttons */
+        .btn-outline-primary,
+        .btn-primary {
+            margin: 0 5px;
+            border-color: white;
+            color: white;
+            background: transparent;
+        }
+
+        .btn-outline-primary:hover,
+        .btn-primary:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: white;
+            border-color: white;
+        }
+
+        /* Body padding to account for fixed navbar */
+        body {
+            padding-top: 70px;
+            background-color: #f8f9fa;
+        }
+
+        /* Footer styling */
+        .footer {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+            margin-top: 50px;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .footer h5, .footer h6 {
+            color: #007cf0;
+        }
+
+        .footer a {
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .text-muted {
+            color: #6c757d !important;
+        }
+
+        /* Responsive design for mobile devices */
+        @media (max-width: 768px) {
+            .AspNet-Menu-Horizontal {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .AspNet-Menu-Horizontal li {
+                display: block;
+                margin: 2px 0;
+            }
+        }
+    </style>
+    
+    <!-- ContentPlaceHolder for additional head content from child pages -->
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <!-- ASP.NET Server Form - required for server controls to function -->
+    <form runat="server">
+        <div>
+            <!-- Navigation bar using Bootstrap classes for responsive design -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                    <!-- ASP.NET HyperLink control for brand logo with server-side navigation -->
+                    <asp:HyperLink ID="HyperLinkBrand" runat="server" CssClass="navbar-brand" NavigateUrl="~/ClientHome.aspx">
+                        <i class="fas fa-car-side"></i> CarInstant
+                    </asp:HyperLink>
+                    
+                    <!-- Bootstrap responsive toggle button for mobile menu -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Collapsible navigation content -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- Menu items are defined declaratively within the Items collection -->
+                        <!-- Each MenuItem represents a navigation option with Text and NavigateUrl properties -->
+                        <asp:Menu ID="MainNavigationMenu" runat="server" 
+                                  Orientation="Horizontal" 
+                                  CssClass="navbar-nav me-auto"
+                                  StaticMenuStyle-CssClass="AspNet-Menu AspNet-Menu-Horizontal"
+                                  StaticMenuItemStyle-CssClass="nav-item"
+                                  DynamicMenuStyle-CssClass="dropdown-menu">
+                            <Items>
+                                <asp:MenuItem Text="Home" NavigateUrl="~/Home.aspx" />
+                                <asp:MenuItem Text="About Us" NavigateUrl="~/About.aspx" />
+                                <asp:MenuItem Text="Vehicles" NavigateUrl="~/Vehicles.aspx" />
+                            </Items>
+                        </asp:Menu>
+                        
+                        <!-- Authentication links section using traditional HyperLink controls -->
+                        <!-- These remain as HyperLinks for consistent button styling -->
+                        <div class="d-flex">
+                            <!-- Login link with Bootstrap button styling -->
+                            <asp:HyperLink ID="HyperLinkLogin" runat="server" 
+                                         CssClass="btn btn-outline-primary btn-sm me-2" 
+                                         NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+                            <!-- Register link with primary button styling -->
+                            <asp:HyperLink ID="HyperLinkRegister" runat="server" 
+                                         CssClass="btn btn-primary btn-sm" 
+                                         NavigateUrl="~/Register.aspx">Register</asp:HyperLink>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main content area where child pages will render their content -->
+            <main>
+                <!-- Child pages define content that gets injected here -->
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+
+            <!-- Footer section with company information and links -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- Company information column -->
+                        <div class="col-md-4">
+                            <h5>CarInstant</h5>
+                            <p class="text-muted">Your trusted car rental service in Mauritius.</p>
+                        </div>
+                        <!-- Quick links column using ASP.NET HyperLink controls -->
+                        <div class="col-md-4">
+                            <h6>Quick Links</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <!-- Server-side HyperLink allows for programmatic URL modification -->
+                                    <asp:HyperLink ID="HyperLinkAboutFooter" runat="server" 
+                                                 CssClass="text-muted" 
+                                                 NavigateUrl="~/About.aspx">About Us</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="HyperLinkFleetFooter" runat="server" 
+                                                 CssClass="text-muted" 
+                                                 NavigateUrl="~/Vehicles.aspx">Our Fleet</asp:HyperLink>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Contact information column -->
+                        <div class="col-md-4">
+                            <h6>Contact Info</h6>
+                            <p class="text-muted">
+                                <i class="fas fa-phone"></i> +230 123 4567<br>
+                                <i class="fas fa-envelope"></i> instantcar@gmail.mu<br>
+                                <i class="fas fa-map-marker-alt"></i> Mauritius
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </footer>
+        </div>
+    </form>
+
+    <!-- Bootstrap JavaScript for interactive components -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

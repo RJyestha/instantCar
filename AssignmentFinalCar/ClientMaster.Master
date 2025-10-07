@@ -1,0 +1,216 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="ClientMaster.Master.vb" Inherits="AssignmentFinalCar.Site2" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - CarInstant</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    
+    <style>
+    .navbar {
+        box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        background: linear-gradient(135deg, #007cf0 0%, #00dfd8 100%) !important;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        color: white !important;
+        font-size: 1.5rem;
+    }
+
+    .nav-link, .navbar-menu .menu-horizontal a, .navbar-menu a {
+        font-weight: 500;
+        margin: 0 5px;
+        color: white !important;
+    }
+
+    .nav-link:hover, .navbar-menu .menu-horizontal a:hover {
+        color: #dff6ff !important;
+    }
+
+    .btn-outline-primary,
+    .btn-outline-secondary {
+        margin: 0 5px;
+        border-color: white;
+        color: white;
+    }
+
+    .btn-outline-primary:hover,
+    .btn-outline-secondary:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+    }
+
+    body {
+        padding-top: 70px;
+        background-color: #f8f9fa;
+    }
+
+    .footer {
+        background-color: #f8f9fa;
+        padding: 40px 0;
+        margin-top: 50px;
+        border-top: 1px solid #dee2e6;
+    }
+
+    .welcome-message {
+        background: linear-gradient(135deg, #3a8dde 0%, #6fb1fc 100%);
+        color: white;
+        padding: 12px 18px;
+        border-radius: 6px;
+        margin-bottom: 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-menu .menu-horizontal, .navbar-menu ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-menu .menu-horizontal > li, .navbar-menu > ul > li {
+        padding: 0 5px;
+    }
+
+    .navbar-menu .menu-horizontal a, .navbar-menu a {
+        padding: 8px 10px;
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .dropdown-menu {
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+    }
+
+    .dropdown-item:hover {
+        color: #1e2125;
+        background-color: #e9ecef;
+    }
+
+    .list-unstyled li {
+        list-style-type: none;
+    }
+</style>
+    <!-- ContentPlaceHolder for additional head content from child pages -->
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <!-- Server form required for server-side controls -->
+    <form runat="server">
+        <div>
+            <!-- Navbar at the top of the page -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                    <!-- Brand name with car icon linking to client homepage -->
+                    <a class="navbar-brand" href="ClientHome.aspx">
+                        <i class="fas fa-car-side"></i> CarInstant
+                    </a>
+
+                    <!-- Toggler for mobile navbar -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Collapsible navbar menu items -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="navbar-menu" id="navbarMenu">
+                            <!-- ASP.NET Menu control for navigation -->
+                            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                                <Items>
+                                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/ClientHome.aspx" />
+                                    <asp:MenuItem Text="Search Vehicles" Value="Search Vehicles" NavigateUrl="~/SearchVehicles.aspx" />
+                                    <asp:MenuItem Text="My Bookings" Value="My Bookings" NavigateUrl="~/MyBookings.aspx" />
+                                    <asp:MenuItem Text="Feedback" Value="Feedback" NavigateUrl="~/ClientFeedback.aspx" />
+                                </Items>
+                            </asp:Menu>
+                        </div>
+
+                        <!-- Right-side buttons: Cart and User dropdown -->
+                        <div class="d-flex align-items-center ms-auto">
+                            <!-- Link to the user's cart -->
+                            <asp:HyperLink ID="lnkCart" runat="server" CssClass="btn btn-outline-secondary btn-sm me-2" NavigateUrl="~/Cart.aspx">
+                                <i class="fas fa-shopping-cart"></i> Cart
+                            </asp:HyperLink>
+
+                            <!-- Dropdown for user actions: profile, bookings, logout -->
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                    <i class="fas fa-user"></i> <asp:Label ID="lblUsername" runat="server" />
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><asp:HyperLink ID="lnkProfile" runat="server" CssClass="dropdown-item" NavigateUrl="~/ClientProfile.aspx"><i class="fas fa-user-edit"></i> My Profile</asp:HyperLink></li>
+                                    <li><asp:HyperLink ID="lnkMyBookings" runat="server" CssClass="dropdown-item" NavigateUrl="~/MyBookings.aspx"><i class="fas fa-calendar-alt"></i> My Bookings</asp:HyperLink></li>
+                                    <li><asp:HyperLink ID="lnkFeedback" runat="server" CssClass="dropdown-item" NavigateUrl="~/ClientFeedback.aspx"><i class="fas fa-comment-dots"></i> Give Feedback</asp:HyperLink></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><asp:LinkButton ID="lnkLogout" runat="server" CssClass="dropdown-item" OnClick="Logout_Click"><i class="fas fa-sign-out-alt"></i> Logout</asp:LinkButton></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Welcome message for logged-in users -->
+            <div class="container mt-3">
+                <div class="welcome-message">
+                    <p class="mb-0"><strong>Welcome, <asp:Label ID="lblWelcomeUser" runat="server" />!</strong> You can now access full vehicle details and make bookings.</p>
+                </div>
+            </div>
+
+            <!-- Placeholder for child page content -->
+            <main>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </main>
+
+            <!-- Footer section with company info and links -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- Column 1: Brand and description -->
+                        <div class="col-md-4">
+                            <asp:Label ID="lblCarInstant" runat="server" Text="CarInstant" CssClass="h5" />
+                            <p class="text-muted">Your trusted car rental service in Mauritius.</p>
+                        </div>
+
+                        <!-- Column 2: Client service quick links -->
+                        <div class="col-md-4">
+                            <asp:Label ID="lblClientServices" runat="server" Text="Client Services" CssClass="h6" />
+                            <asp:BulletedList ID="BulletedList1" runat="server" DisplayMode="HyperLink" CssClass="list-unstyled">
+                                <asp:ListItem Text="Search Vehicles" Value="SearchVehicles.aspx" />
+                                <asp:ListItem Text="My Bookings" Value="MyBookings.aspx" />
+                                <asp:ListItem Text="My Profile" Value="ClientProfile.aspx" />
+                                <asp:ListItem Text="Give Feedback" Value="ClientFeedback.aspx" />
+                            </asp:BulletedList>
+                        </div>
+
+                        <!-- Column 3: Contact information -->
+                        <div class="col-md-4">
+                            <asp:Label ID="lblContactInfo" runat="server" Text="Contact Info" CssClass="h6" />
+                            <p class="text-muted">
+                                <i class="fas fa-phone"></i> +230 123 4567<br />
+                                <i class="fas fa-envelope"></i> info@instantcar.mu<br />
+                                <i class="fas fa-map-marker-alt"></i> Mauritius
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    
+                </div>
+            </footer>
+        </div>
+    </form>
+
+    <!-- Bootstrap JS bundle for responsive and interactive components -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
